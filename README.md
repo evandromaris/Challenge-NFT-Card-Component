@@ -1,0 +1,1 @@
+Desafio do Frontend Mentor, criação de NFT Card Component utilizando html e css. 

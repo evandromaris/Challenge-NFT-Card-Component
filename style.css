@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    
+    margin: auto;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: 1440px;
+    height: 900px;
+    background-color:  hsl(217, 54%, 11%);
+    
+   
+}
+.card-nft{
+    width: 350px;
+    height: 600px;
+    position: relative;
+    top: 50px;
+    left: 545px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px hsl(216, 50%, 16%);
+    
+    
+}
+
+.image-nft img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.text-area{
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
+
+.text-area h2{
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+
+}
+.text-area p{
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.container-price{
+    display: flex;
+    position: relative;
+    left: 25px;
+    top: 30px;
+    
+}
+
+.price img{
+    margin: auto;
+
+}
+
+.price p{
+    position: relative;
+    color: hsl(178, 100%, 50%);
+    bottom: 39px;
+    left: 18px;
+    font-weight: 400;
+}
+
+.clock img{
+    margin-left: 130px;
+}
+
+.clock p{
+    margin-left: 120px;
+    position: relative;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+    bottom: 39px;
+    left: 35px;
+    font-size: 16px;
+}
+
+.linha-horizontal{
+    width: 300px;
+    height: 1px;
+    position: relative;
+    left: 25px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+
+
+.creation img{
+    width: 30px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+.creation p {
+    position: relative;
+    bottom: 27px;
+    left: 75px;
+    font-weight: 300;
+    color:hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+.creation a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    color: hsla(215, 52%, 70%, 0.87);
+    font-weight: 300;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+@media (max-width: 720px){
+    body{
+        background-color:hsl(217, 54%, 11%) ;
+    }
+    .container{
+        max-width: 375px;
+        
+        left: auto;
+        top: auto;
+        margin-left: auto;
+        margin-top: auto;
+    
+    }
+    .card-nft{
+        display: block;
+        position: relative; 
+        left: auto;
+        margin-top: auto;
+        margin-left: 40px;
+        top: 100px;
+
+    }
+    footer{
+        position: relative;
+        left: 30px;
+        top: 30px;
+        text-align: center;
+    }
+}
